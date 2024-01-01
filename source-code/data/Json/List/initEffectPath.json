@@ -1,0 +1,20 @@
+{
+  "assetPass": [
+    { "item": "data/Json/Effect/carConflict.json" },
+    { "item": "data/Json/Effect/carMove.json" },
+    { "item": "data/Json/Effect/.json" },
+    { "item": "data/Json/Effect/carDamage.json" },
+    { "item": "data/Json/Effect/littleRadiusLaser.json" },
+    { "item": "data/Json/Effect/bigRadiusLaser.json" },
+    { "item": "data/Json/Effect/LaserTrack.json" },
+    { "item": "data/Json/Effect/getCoin.json" },
+    { "item": "data/Json/Effect/bomb.json" },
+    { "item": "data/Json/Effect/coinAura.json" },
+    { "item": "data/Json/Effect/collectCompass.json" },
+    { "item": "data/Json/Effect/burner.json" },
+    { "item": "data/Json/Effect/turboSign.json" },
+    { "item": "data/Json/Effect/confetti.json" },
+    { "item": "data/Json/Effect/chargeBurner.json" },
+    { "item": "data/Json/Effect/turboBurner.json" }
+  ]
+}

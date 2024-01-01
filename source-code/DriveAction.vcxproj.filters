@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\DrawModel">
+      <UniqueIdentifier>{21cf6332-9ff5-4490-9fec-9cb365eef391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DrawModel">
+      <UniqueIdentifier>{787aa747-6a6f-4815-888a-b9f3c5d05441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Camera">
+      <UniqueIdentifier>{e013d615-430b-4485-9d98-d6c61c5ece04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Camera">
+      <UniqueIdentifier>{d8de3b4e-c62f-49ce-b2b7-484d2cd74995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ConflictSystem">
+      <UniqueIdentifier>{9a5c8df0-a0d8-4230-aea6-4752c3918d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ConflictSystem">
+      <UniqueIdentifier>{3c208533-9468-4073-9acd-baadb0587c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{5c046f79-5a56-4652-ae19-100992103527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Effect">
+      <UniqueIdentifier>{c4f67a9f-d5c6-4c24-a1b6-003f3b1db32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{8d06d63d-031d-4805-9a7a-7e2c1ce9ef73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{f94ca07e-66fd-4416-a3d4-34f0ad829f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ObjectController">
+      <UniqueIdentifier>{841bac1a-8224-4cac-9c34-061933e6709b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ObjectController">
+      <UniqueIdentifier>{dcd14770-4aa3-4fd5-ad92-7507f76a81a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Observer">
+      <UniqueIdentifier>{5bcd545d-3c5a-4976-9c42-a31d200ec91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Observer">
+      <UniqueIdentifier>{5c830bb3-225d-414c-8c13-7f512127483a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound">
+      <UniqueIdentifier>{bf3a48e8-0743-4604-b42b-7a2305c9f91a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Sound">
+      <UniqueIdentifier>{2d290fe4-e31d-4662-94d6-9fbd02884d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{5e46ecba-f2d6-4faa-b7e3-b5e685905fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Play">
+      <UniqueIdentifier>{939f4a1f-20ee-4ffe-b883-972ec7a9b295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{3db5bbbb-a60a-465b-94c0-b6c94fbd1d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Editor">
+      <UniqueIdentifier>{ba02604f-022a-476b-828b-f7e98e4550aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Play">
+      <UniqueIdentifier>{31b38bca-2232-4a52-85b8-cea4523c2a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{b9cf2685-4cfe-4e4d-aed2-c46b8d54f611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Editor">
+      <UniqueIdentifier>{69d62b96-f97e-463d-b2be-c2285f40c80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Title">
+      <UniqueIdentifier>{de2bd141-c2f4-4320-b947-d71ecf492048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{f7f0d734-60f0-426a-b7b1-3aa73c569e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\UI">
+      <UniqueIdentifier>{4a041028-229e-4672-bf90-9e64fea77687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{a1f4d917-2638-4a61-9ba3-a5a8fe16acf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Utility">
+      <UniqueIdentifier>{2f8c4686-117a-4c38-8920-537a1dd6d0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\rapidjson">
+      <UniqueIdentifier>{a4b6db58-3338-47cb-a7a5-345d851b3924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AddActor">
+      <UniqueIdentifier>{94df990c-b92f-4a2c-82ab-a4628d639aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AddActor">
+      <UniqueIdentifier>{92006d5e-d214-477e-85f6-96de0c20a523}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Script\DrawModel\EditorCircleFlyShipDrawModel.cpp">
+      <Filter>ソース ファイル\DrawModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\DrawModel\DrawModel.cpp">
+      <Filter>ソース ファイル\DrawModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\DrawModel\EditorDrawModel.cpp">
+      <Filter>ソース ファイル\DrawModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\DrawModel\PlayerDrawModel.cpp">
+      <Filter>ソース ファイル\DrawModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Camera\Camera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Camera\EditorCamera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Camera\GameCamera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Camera\TitleCamera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\WallCollider.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\ConflictManager.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\ConflictProcessor.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\LaserCollider.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\PlayerConflictProcessor.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ConflictSystem\SphereHitChecker.cpp">
+      <Filter>ソース ファイル\ConflictSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Effect\EffectManager.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Effect\Effect.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Actor.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Bomber.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\BomberFlyShip.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Car.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\CircleLaserFlyShip.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\CollectItem.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\DamageObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\TitleCar.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\EditorObject.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\LaserFlyShip.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\MoveSaw.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Object.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\PlayerCar.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\RotatingLaser.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Saw.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\StageWall.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\UpDownLaserFlyShip.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Object\Wheels.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\ActorController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\ActorControllerManager.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\RotatingLaserController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\BomberController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\BomberFlyShipController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\CollectController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\TitleCarController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\FlyShipController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\MoveSawController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\PlayerCarController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\SawController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\StageObjectController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\UpDownFlyShipController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Observer\PlayerObserver.cpp">
+      <Filter>ソース ファイル\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Observer\ObjectObserver.cpp">
+      <Filter>ソース ファイル\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Sound\SoundListener.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Sound\SoundPlayer.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\StageDataManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\StageSelect.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\EditDataSaver.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\EditorManager.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\StageDataEditor.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\CollectCompass.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\CountDown.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\EditManual.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\EndCountDown.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\GamePlayUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\MiniMap.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\NumUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\PlayManual.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\SpaceKeyUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\TimerUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\UIDrawer.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\UIManager.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\Clock.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\CSVFileLoader.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\FadeInFadeOut.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\GameScreen.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\ResultScore.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\ReusableTimer.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\ShadowMap.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\Timer.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\UserInput.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Title\TitleObject.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Title\TitleRanking.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Title\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\Menu.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\PlayScene.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\PrePlayGameProcess.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Effect\EditorEffect.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\CircleFlyshipController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\DamageObjectController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\ObjectController\AddableObjectController.cpp">
+      <Filter>ソース ファイル\ObjectController</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\ScoreNum.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\ScoreRecordWriter.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\PlayGameProcess.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\PostGameEndStagingProcess.cpp">
+      <Filter>ソース ファイル\Scene\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\StopTimer.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Play\CollectItemObserver.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\EditorScene.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\DamageObjectGenerator.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\EnemyGenerator.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\FirstPositionGetter.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\InitActor.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Observer\CameraObserver.cpp">
+      <Filter>ソース ファイル\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\JsonFileLoader.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\DrawModelManager.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\AddFlyShipDataLoader.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\AddMoveSawDataLoader.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\AddObjectDataLoader.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\AddActor\AddPlayerDataLoader.cpp">
+      <Filter>ソース ファイル\AddActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Camera\CameraDataLoader.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\MouseInput.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\EditLog.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\Editor\EditorInput.cpp">
+      <Filter>ソース ファイル\Scene\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\AssetManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\EditorUI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Utility\JsonWriter.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMenu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StageTimeLimitEditor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Script\DrawModel\EditorCircleFlyShipDrawModel.h">
+      <Filter>ヘッダー ファイル\DrawModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\DrawModel\DrawModel.h">
+      <Filter>ヘッダー ファイル\DrawModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\DrawModel\EditorDrawModel.h">
+      <Filter>ヘッダー ファイル\DrawModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\DrawModel\PlayerDrawModel.h">
+      <Filter>ヘッダー ファイル\DrawModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Camera\Camera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Camera\EditorCamera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Camera\GameCamera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Camera\TitleCamera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\ConflictExamineResultInfo.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\ConflictManager.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\ConflictProcessor.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\HitCheckExamineObjectInfo.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\LaserCollider.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\PlayerConflictProcessor.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\SphereHitChecker.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ConflictSystem\WallCollider.h">
+      <Filter>ヘッダー ファイル\ConflictSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Effect\Effect.h">
+      <Filter>ヘッダー ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Effect\EffectManager.h">
+      <Filter>ヘッダー ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Wheels.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\UpDownLaserFlyShip.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\StageWall.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Saw.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\RotatingLaser.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\PlayerCar.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Object.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\MoveSaw.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\LaserFlyShip.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\EditorObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\EditObjectData.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\TitleCar.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Actor.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Bomber.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\BomberFlyShip.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\Car.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\CarParamater.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\CircleLaserFlyShip.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\CollectItem.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Object\DamageObject.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\ActorController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\ActorControllerManager.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\RotatingLaserController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\BomberController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\BomberFlyShipController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\CollectController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\DamageObjectController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\TitleCarController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\FlyShipController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\MoveSawController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\PlayerCarController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\SawController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\StageObjectController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\UpDownFlyShipController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Observer\PlayerObserver.h">
+      <Filter>ヘッダー ファイル\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Observer\ObjectObserver.h">
+      <Filter>ヘッダー ファイル\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Sound\SoundListener.h">
+      <Filter>ヘッダー ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Sound\SoundPlayer.h">
+      <Filter>ヘッダー ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\SceneBase.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\SceneType.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\StageDataManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\StageSelect.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditDataSaver.h">
+      <Filter>ヘッダー ファイル\Scene\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditorScene.h">
+      <Filter>ヘッダー ファイル\Scene\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditorManager.h">
+      <Filter>ヘッダー ファイル\Scene\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\StageDataEditor.h">
+      <Filter>ヘッダー ファイル\Scene\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\CollectCompass.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\CountDown.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\EditManual.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\EndCountDown.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\GamePlayUI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\MiniMap.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\NumUI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\PlayManual.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\SpaceKeyUI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\TimerUI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\UIDrawer.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\UIManager.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\Clock.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\CSVFileLoader.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\FadeInFadeOut.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\ListUtility.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\OriginalMath.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\GameScreen.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\ResultScore.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\ReusableTimer.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\ShadowMap.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\Timer.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\UserInput.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\Utility.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\Menu.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\PrePlayGameProcess.h">
+      <Filter>ヘッダー ファイル\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\PlayScene.h">
+      <Filter>ヘッダー ファイル\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Title\TitleObject.h">
+      <Filter>ヘッダー ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Title\TitleRanking.h">
+      <Filter>ヘッダー ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Title\TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEffect.h">
+      <Filter>ヘッダー ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\CircleFlyshipController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\ObjectController\AddableObjectController.h">
+      <Filter>ヘッダー ファイル\ObjectController</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\ScoreNum.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\ScoreRecordWriter.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\PlayGameProcess.h">
+      <Filter>ヘッダー ファイル\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\PostGameEndStagingProcess.h">
+      <Filter>ヘッダー ファイル\Scene\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\StopTimer.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\allocators.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\cursorstreamwrapper.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\document.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\encodedstream.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\encodings.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\filereadstream.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\filewritestream.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\fwd.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\istreamwrapper.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\memorybuffer.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\memorystream.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\ostreamwrapper.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\pointer.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\prettywriter.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\rapidjson.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\reader.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\schema.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\stream.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\stringbuffer.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\uri.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\writer.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\error\en.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\error\error.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\biginteger.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\clzll.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\diyfp.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\dtoa.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\ieee754.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\itoa.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\meta.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\pow10.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\regex.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\stack.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\strfunc.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\strtod.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\internal\swap.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\msinttypes\inttypes.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\rapidjson\msinttypes\stdint.h">
+      <Filter>ヘッダー ファイル\rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Play\CollectItemObserver.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\DamageObjectGenerator.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\EnemyGenerator.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\FirstPositionGetter.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\InitActor.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\InitObjKind.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFileLoader.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Observer\CameraObserver.h">
+      <Filter>ヘッダー ファイル\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\JsonFileLoader.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\DrawModelManager.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\AddFlyShipDataLoader.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\AddMoveSawDataLoader.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\AddObjectDataLoader.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\AddActor\AddPlayerDataLoader.h">
+      <Filter>ヘッダー ファイル\AddActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Camera\CameraDataLoader.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditorInput.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditLog.h">
+      <Filter>ヘッダー ファイル\Scene\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\AssetManager.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\EditorUI.h">
+      <Filter>ヘッダー ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Utility\JsonWriter.h">
+      <Filter>ヘッダー ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\EditorMenu.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\Editor\StageTimeLimitEditor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+{
+  "assetPass": [
+      { "item": "data/Json/Sound/bomberShipFlight.json" },
+      { "item": "data/Json/Sound/playerFlight.json" },
+      { "item": "data/Json/Sound/playerDamage.json" },
+      { "item": "data/Json/Sound/coinGet.json" },
+      { "item": "data/Json/Sound/countDown.json" },
+      { "item": "data/Json/Sound/playBGM.json" },
+      { "item": "data/Json/Sound/clap.json" },
+      { "item": "data/Json/Sound/fanfare.json" },
+      { "item": "data/Json/Sound/titleBGM.json" },
+      { "item": "data/Json/Sound/scoreStartSE.json" },
+      { "item": "data/Json/Sound/scoreEndSE.json" },
+      { "item": "data/Json/Sound/sceneNextSE.json" },
+      { "item": "data/Json/Sound/gameEndFanfare.json" },
+      { "item": "data/Json/Sound/playerCharge.json" }
+  ]
+}

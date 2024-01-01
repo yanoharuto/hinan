@@ -1,0 +1,9 @@
+{
+  "assetPass": [
+    { "item": "data/Json/AddObjectData/playerSpeed.json" },
+    { "item": "data/Json/AddObjectData/circleFlyShip.json" },
+    { "item": "data/Json/AddObjectData/upDownFlyShip.json" },
+    { "item": "data/Json/AddObjectData/bomberShip.json" },
+    { "item": "data/Json/AddObjectData/moveSaw.json" }
+  ]
+}

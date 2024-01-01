@@ -1,0 +1,14 @@
+{
+  "player": "data/model/Player/iceBrades.json",
+  "moveSaw": "data/model/Saw/moveSaw.json",
+  "saw": "data/model/Saw/saw.json",
+  "bomberShip": "data/model/BomberShip/bomberShip.json",
+  "bomber": "data/model/bomb/bomb.json",
+  "upDownShip": "data/model/LaserShip/upDownShip.json",
+  "circleLaserShip": "data/model/LaserShip/circleShip.json",
+  "laser": "data/model/LaserShip/laser.json",
+  "collect": "data/model/Coin/coin.json",
+  "floor": "data/model/Stage/floor.json",
+  "skyDome": "data/model/SkyDome/SkyDome.json",
+  "wall": "data/model/Stage/wall.json"
+}

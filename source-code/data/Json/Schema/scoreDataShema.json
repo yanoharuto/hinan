@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "gold",
+    "silver",
+    "bronze",
+    "firstScore",
+    "secondScore",
+    "thirdScore"
+  ],
+  "properties": {
+    "gold": {
+      "type": "integer",
+      "default": 0,
+      "title": "The gold Schema",
+      "examples": [
+        0
+      ]
+    },
+    "silver": {
+      "type": "integer",
+      "default": 0,
+      "title": "The silver Schema",
+      "examples": [
+        0
+      ]
+    },
+    "bronze": {
+      "type": "integer",
+      "default": 0,
+      "title": "The bronze Schema",
+      "examples": [
+        0
+      ]
+    },
+    "firstScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The firstScore Schema",
+      "examples": [
+        0
+      ]
+    },
+    "secondScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The secondScore Schema",
+      "examples": [
+        0
+      ]
+    },
+    "thirdScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The thirdScore Schema",
+      "examples": [
+        0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0,
+      "firstScore": 0,
+      "secondScore": 0,
+      "thirdScore": 0
+    }
+  ]
+}

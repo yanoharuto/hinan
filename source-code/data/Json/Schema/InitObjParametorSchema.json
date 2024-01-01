@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "collRadius",
+    "bouncePower",
+    "firstPosY",
+    "modelSize"
+  ],
+  "properties": {
+    "collRadius": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The collRadius Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "bouncePower": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The bouncePower Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "firstPosY": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The firstPosY Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "modelSize": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The modelSize Schema",
+      "examples": [
+        0.0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "collRadius": 0.0,
+      "bouncePow": 0.0,
+      "firstPosY": 0.0,
+      "modelSize": 0.0
+    }
+  ]
+}

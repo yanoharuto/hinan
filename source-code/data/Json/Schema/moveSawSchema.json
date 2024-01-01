@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "moveSpeed",
+    "moveTime"
+  ],
+  "properties": {
+    "moveSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The moveSpeed Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "moveTime": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The moveTime Schema",
+      "examples": [
+        0.0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "moveSpeed": 0.0,
+      "moveTime": 0.0
+    }
+  ]
+}

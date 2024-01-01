@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "aliveTime",
+    "moveSpeed",
+    "coolTime",
+    "unitNum",
+    "unitBetween"
+  ],
+  "properties": {
+    "aliveTime": {
+      "type": "integer",
+      "default": 0,
+      "title": "The aliveTime Schema",
+      "examples": [
+        0
+      ]
+    },
+    "moveSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The moveSpeed Schema",
+      "examples": [
+        0.7
+      ]
+    },
+    "coolTime": {
+      "type": "number",
+      "default": 0,
+      "title": "The coolTime Schema",
+      "examples": [
+        700
+      ]
+    },
+    "unitNum": {
+      "type": "integer",
+      "default": 0,
+      "title": "The unitNum Schema",
+      "examples": [
+        0
+      ]
+    },
+    "unitBetween": {
+      "type": "number",
+      "default": 0,
+      "title": "The unitBetween Schema",
+      "examples": [
+        0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "aliveTime": 0,
+      "moveSpeed": 0.7,
+      "coolTime": 700,
+      "unitNum": 0,
+      "unitBetween": 0
+    }
+  ]
+}

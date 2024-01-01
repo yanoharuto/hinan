@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "acceleSpeed",
+    "lowestSpeed",
+    "maxSpeed",
+    "turboAddSpeed",
+    "turboTime",
+    "gripPower",
+    "breakPower",
+    "turboChargeTime"
+  ],
+  "properties": {
+    "acceleSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The acceleSpeed Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "lowestSpeed": {
+      "type": "integer",
+      "default": 0,
+      "title": "The lowestSpeed Schema",
+      "examples": [
+        2
+      ]
+    },
+    "maxSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The maxSpeed Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "turboAddSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The turboAddSpeed Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "turboTime": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The turboTime Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "gripPower": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The gripPower Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "breakPower": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The breakPower Schema",
+      "examples": [
+        0.0
+      ]
+    },
+    "turboChargeTime": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The turboChargeTime Schema",
+      "examples": [
+        0.0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "acceleSpeed": 0.0,
+      "lowestSpeed": 2,
+      "maxSpeed": 0.0,
+      "turboAddSpeed": 0.0,
+      "turboTime": 0.0,
+      "gripPower": 0.0,
+      "breakPower": 0.0,
+      "turboChargeTime": 0.0
+    }
+  ]
+}

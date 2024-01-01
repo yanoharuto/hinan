@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "x",
+    "y",
+    "width",
+    "height",
+    "xNum",
+    "yNum",
+    "graphPass",
+    "size",
+    "frameSpeed"
+  ],
+  "properties": {
+    "x": {
+      "type": "integer",
+      "default": 0,
+      "title": "The x Schema",
+      "examples": [
+        1280
+      ]
+    },
+    "y": {
+      "type": "integer",
+      "default": 0,
+      "title": "The y Schema",
+      "examples": [
+        475
+      ]
+    },
+    "width": {
+      "type": "integer",
+      "default": 0,
+      "title": "The width Schema",
+      "examples": [
+        960
+      ]
+    },
+    "height": {
+      "type": "integer",
+      "default": 0,
+      "title": "The height Schema",
+      "examples": [
+        210
+      ]
+    },
+    "xNum": {
+      "type": "integer",
+      "default": 0,
+      "title": "The xNum Schema",
+      "examples": [
+        1
+      ]
+    },
+    "yNum": {
+      "type": "integer",
+      "default": 0,
+      "title": "The yNum Schema",
+      "examples": [
+        1
+      ]
+    },
+    "graphPass": {
+      "type": "string",
+      "default": "",
+      "title": "The graphPass Schema",
+      "examples": [
+        "data/UI/image/GamePurpose.png"
+      ]
+    },
+    "size": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The size Schema",
+      "examples": [
+        1.0
+      ]
+    },
+    "frameSpeed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The frameSpeed Schema",
+      "examples": [
+        0.05999999865889549
+      ]
+    }
+  },
+  "examples": [
+    {
+      "x": 1280,
+      "y": 475,
+      "width": 960,
+      "height": 210,
+      "xNum": 1,
+      "yNum": 1,
+      "graphPass": "data/UI/image/GamePurpose.png",
+      "size": 1.0,
+      "frameSpeed": 0.05999999865889549
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "nearValue": 15,
+  "farValue": 10700,
+  "lookAngle": 180,
+  "targetBetween": 800,
+  "setYPos": 550,
+  "speed": 20
+}

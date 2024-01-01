@@ -1,0 +1,8 @@
+{
+  "assetPass": "data/model/Saw/Saw.mv1",
+  "modelSize": 1.5,
+  "firstPosY": 5,
+  "collRadius": 80,
+  "bouncePower": 1.4,
+  "addDataPass": "data/model/Saw/moveSawParam.csv"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "nearValue",
+    "farValue",
+    "lookAngle",
+    "targetBetween",
+    "setYPos",
+    "speed"
+  ],
+  "properties": {
+    "nearValue": {
+      "type": "integer",
+      "default": 0,
+      "title": "The nearValue Schema",
+      "examples": [
+        15
+      ]
+    },
+    "farValue": {
+      "type": "integer",
+      "default": 0,
+      "title": "The farValue Schema",
+      "examples": [
+        11300
+      ]
+    },
+    "lookAngle": {
+      "type": "integer",
+      "default": 0,
+      "title": "The lookAngle Schema",
+      "examples": [
+        180
+      ]
+    },
+    "targetBetween": {
+      "type": "integer",
+      "default": 0,
+      "title": "The targetBetween Schema",
+      "examples": [
+        100
+      ]
+    },
+    "setYPos": {
+      "type": "integer",
+      "default": 0,
+      "title": "The setYPos Schema",
+      "examples": [
+        30
+      ]
+    },
+    "speed": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The speed Schema",
+      "examples": [
+        0.045
+      ]
+    }
+  },
+  "examples": [
+    {
+      "nearValue": 15,
+      "farValue": 11300,
+      "lookAngle": 180,
+      "targetBetween": 100,
+      "setYPos": 30,
+      "speed": 0.045
+    }
+  ]
+}

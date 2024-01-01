@@ -1,0 +1,10 @@
+{
+  "acceleSpeed": 7,
+  "lowestSpeed": 1.8,
+  "maxSpeed": 10,
+  "turboAddSpeed": 8.5,
+  "turboTime": 1.4,
+  "gripPower": 0.11,
+  "breakPower": 0.1,
+  "turboChargeTime": 0.6
+}

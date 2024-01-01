@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EditorMenu.cpp" />
+    <ClCompile Include="Script\AddActor\AddFlyShipDataLoader.cpp" />
+    <ClCompile Include="Script\AddActor\AddMoveSawDataLoader.cpp" />
+    <ClCompile Include="Script\AddActor\AddObjectDataLoader.cpp" />
+    <ClCompile Include="Script\AddActor\AddPlayerDataLoader.cpp" />
+    <ClCompile Include="Script\AddActor\DamageObjectGenerator.cpp" />
+    <ClCompile Include="Script\AddActor\DrawModelManager.cpp" />
+    <ClCompile Include="Script\AddActor\EnemyGenerator.cpp" />
+    <ClCompile Include="Script\AddActor\FirstPositionGetter.cpp" />
+    <ClCompile Include="Script\AddActor\InitActor.cpp" />
+    <ClCompile Include="Script\Camera\Camera.cpp" />
+    <ClCompile Include="Script\Camera\CameraDataLoader.cpp" />
+    <ClCompile Include="Script\Camera\EditorCamera.cpp" />
+    <ClCompile Include="Script\Camera\GameCamera.cpp" />
+    <ClCompile Include="Script\Camera\TitleCamera.cpp" />
+    <ClCompile Include="Script\ConflictSystem\ConflictManager.cpp" />
+    <ClCompile Include="Script\ConflictSystem\ConflictProcessor.cpp" />
+    <ClCompile Include="Script\ConflictSystem\LaserCollider.cpp" />
+    <ClCompile Include="Script\ConflictSystem\PlayerConflictProcessor.cpp" />
+    <ClCompile Include="Script\ConflictSystem\SphereHitChecker.cpp" />
+    <ClCompile Include="Script\ConflictSystem\WallCollider.cpp" />
+    <ClCompile Include="Script\DrawModel\EditorCircleFlyShipDrawModel.cpp" />
+    <ClCompile Include="Script\DrawModel\DrawModel.cpp" />
+    <ClCompile Include="Script\DrawModel\EditorDrawModel.cpp" />
+    <ClCompile Include="Script\DrawModel\PlayerDrawModel.cpp" />
+    <ClCompile Include="Script\Effect\EditorEffect.cpp" />
+    <ClCompile Include="Script\Effect\Effect.cpp" />
+    <ClCompile Include="Script\Effect\EffectManager.cpp" />
+    <ClCompile Include="Script\main.cpp" />
+    <ClCompile Include="Script\ObjectController\ActorController.cpp" />
+    <ClCompile Include="Script\ObjectController\ActorControllerManager.cpp" />
+    <ClCompile Include="Script\ObjectController\RotatingLaserController.cpp" />
+    <ClCompile Include="Script\ObjectController\BomberController.cpp" />
+    <ClCompile Include="Script\ObjectController\BomberFlyShipController.cpp" />
+    <ClCompile Include="Script\ObjectController\CircleFlyshipController.cpp" />
+    <ClCompile Include="Script\ObjectController\CollectController.cpp" />
+    <ClCompile Include="Script\ObjectController\DamageObjectController.cpp" />
+    <ClCompile Include="Script\ObjectController\TitleCarController.cpp" />
+    <ClCompile Include="Script\ObjectController\AddableObjectController.cpp" />
+    <ClCompile Include="Script\ObjectController\FlyShipController.cpp" />
+    <ClCompile Include="Script\ObjectController\MoveSawController.cpp" />
+    <ClCompile Include="Script\ObjectController\PlayerCarController.cpp" />
+    <ClCompile Include="Script\ObjectController\SawController.cpp" />
+    <ClCompile Include="Script\ObjectController\StageObjectController.cpp" />
+    <ClCompile Include="Script\ObjectController\UpDownFlyShipController.cpp" />
+    <ClCompile Include="Script\Object\Actor.cpp" />
+    <ClCompile Include="Script\Object\Bomber.cpp" />
+    <ClCompile Include="Script\Object\BomberFlyShip.cpp" />
+    <ClCompile Include="Script\Object\Car.cpp" />
+    <ClCompile Include="Script\Object\CircleLaserFlyShip.cpp" />
+    <ClCompile Include="Script\Object\CollectItem.cpp" />
+    <ClCompile Include="Script\Object\DamageObject.cpp" />
+    <ClCompile Include="Script\Object\TitleCar.cpp" />
+    <ClCompile Include="Script\Object\EditorObject.cpp" />
+    <ClCompile Include="Script\Object\LaserFlyShip.cpp" />
+    <ClCompile Include="Script\Object\MoveSaw.cpp" />
+    <ClCompile Include="Script\Object\Object.cpp" />
+    <ClCompile Include="Script\Object\PlayerCar.cpp" />
+    <ClCompile Include="Script\Object\RotatingLaser.cpp" />
+    <ClCompile Include="Script\Object\Saw.cpp" />
+    <ClCompile Include="Script\Object\StageWall.cpp" />
+    <ClCompile Include="Script\Object\UpDownLaserFlyShip.cpp" />
+    <ClCompile Include="Script\Object\Wheels.cpp" />
+    <ClCompile Include="Script\Observer\CameraObserver.cpp" />
+    <ClCompile Include="Script\Observer\ObjectObserver.cpp" />
+    <ClCompile Include="Script\Observer\PlayerObserver.cpp" />
+    <ClCompile Include="Script\Scene\Editor\EditDataSaver.cpp" />
+    <ClCompile Include="Script\Scene\Editor\EditLog.cpp" />
+    <ClCompile Include="Script\Scene\Editor\EditorInput.cpp" />
+    <ClCompile Include="Script\Scene\Editor\EditorScene.cpp" />
+    <ClCompile Include="Script\Scene\Editor\EditorManager.cpp" />
+    <ClCompile Include="Script\Scene\Editor\StageDataEditor.cpp" />
+    <ClCompile Include="Script\Scene\Play\CollectItemObserver.cpp" />
+    <ClCompile Include="Script\Scene\Play\Menu.cpp" />
+    <ClCompile Include="Script\Scene\Play\PlayGameProcess.cpp" />
+    <ClCompile Include="Script\Scene\Play\PlayScene.cpp" />
+    <ClCompile Include="Script\Scene\Play\PostGameEndStagingProcess.cpp" />
+    <ClCompile Include="Script\Scene\Play\PrePlayGameProcess.cpp" />
+    <ClCompile Include="Script\Scene\SceneBase.cpp" />
+    <ClCompile Include="Script\Scene\StageDataManager.cpp" />
+    <ClCompile Include="Script\Scene\StageSelect.cpp" />
+    <ClCompile Include="Script\Scene\Title\TitleObject.cpp" />
+    <ClCompile Include="Script\Scene\Title\TitleRanking.cpp" />
+    <ClCompile Include="Script\Scene\Title\TitleScene.cpp" />
+    <ClCompile Include="Script\Sound\SoundListener.cpp" />
+    <ClCompile Include="Script\Sound\SoundPlayer.cpp" />
+    <ClCompile Include="Script\UI\CollectCompass.cpp" />
+    <ClCompile Include="Script\UI\CountDown.cpp" />
+    <ClCompile Include="Script\UI\EditManual.cpp" />
+    <ClCompile Include="Script\UI\EditorUI.cpp" />
+    <ClCompile Include="Script\UI\EndCountDown.cpp" />
+    <ClCompile Include="Script\UI\GamePlayUI.cpp" />
+    <ClCompile Include="Script\UI\MiniMap.cpp" />
+    <ClCompile Include="Script\UI\NumUI.cpp" />
+    <ClCompile Include="Script\UI\PlayManual.cpp" />
+    <ClCompile Include="Script\UI\ScoreNum.cpp" />
+    <ClCompile Include="Script\UI\SpaceKeyUI.cpp" />
+    <ClCompile Include="Script\UI\TimerUI.cpp" />
+    <ClCompile Include="Script\UI\UIDrawer.cpp" />
+    <ClCompile Include="Script\UI\UIManager.cpp" />
+    <ClCompile Include="Script\Utility\AssetManager.cpp" />
+    <ClCompile Include="Script\Utility\Clock.cpp" />
+    <ClCompile Include="Script\Utility\CSVFileLoader.cpp" />
+    <ClCompile Include="Script\Utility\FadeInFadeOut.cpp" />
+    <ClCompile Include="Script\Utility\JsonFileLoader.cpp" />
+    <ClCompile Include="Script\Utility\JsonWriter.cpp" />
+    <ClCompile Include="Script\Utility\MouseInput.cpp" />
+    <ClCompile Include="Script\Utility\StopTimer.cpp" />
+    <ClCompile Include="Script\Utility\GameScreen.cpp" />
+    <ClCompile Include="Script\Utility\ResultScore.cpp" />
+    <ClCompile Include="Script\Utility\ReusableTimer.cpp" />
+    <ClCompile Include="Script\Utility\ScoreRecordWriter.cpp" />
+    <ClCompile Include="Script\Utility\ShadowMap.cpp" />
+    <ClCompile Include="Script\Utility\Timer.cpp" />
+    <ClCompile Include="Script\Utility\UserInput.cpp" />
+    <ClCompile Include="StageTimeLimitEditor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EditorEffect.h" />
+    <ClInclude Include="JsonFileLoader.h" />
+    <ClInclude Include="Script\AddActor\AddFlyShipDataLoader.h" />
+    <ClInclude Include="Script\AddActor\AddMoveSawDataLoader.h" />
+    <ClInclude Include="Script\AddActor\AddObjectDataLoader.h" />
+    <ClInclude Include="Script\AddActor\AddPlayerDataLoader.h" />
+    <ClInclude Include="Script\AddActor\DamageObjectGenerator.h" />
+    <ClInclude Include="Script\AddActor\DrawModelManager.h" />
+    <ClInclude Include="Script\AddActor\EnemyGenerator.h" />
+    <ClInclude Include="Script\AddActor\FirstPositionGetter.h" />
+    <ClInclude Include="Script\AddActor\InitActor.h" />
+    <ClInclude Include="Script\AddActor\InitObjKind.h" />
+    <ClInclude Include="Script\Camera\Camera.h" />
+    <ClInclude Include="Script\Camera\CameraDataLoader.h" />
+    <ClInclude Include="Script\Camera\EditorCamera.h" />
+    <ClInclude Include="Script\Camera\GameCamera.h" />
+    <ClInclude Include="Script\Camera\TitleCamera.h" />
+    <ClInclude Include="Script\ConflictSystem\ConflictExamineResultInfo.h" />
+    <ClInclude Include="Script\ConflictSystem\ConflictManager.h" />
+    <ClInclude Include="Script\ConflictSystem\ConflictProcessor.h" />
+    <ClInclude Include="Script\ConflictSystem\HitCheckExamineObjectInfo.h" />
+    <ClInclude Include="Script\ConflictSystem\LaserCollider.h" />
+    <ClInclude Include="Script\ConflictSystem\PlayerConflictProcessor.h" />
+    <ClInclude Include="Script\ConflictSystem\SphereHitChecker.h" />
+    <ClInclude Include="Script\ConflictSystem\WallCollider.h" />
+    <ClInclude Include="Script\DrawModel\EditorCircleFlyShipDrawModel.h" />
+    <ClInclude Include="Script\DrawModel\DrawModel.h" />
+    <ClInclude Include="Script\DrawModel\EditorDrawModel.h" />
+    <ClInclude Include="Script\DrawModel\PlayerDrawModel.h" />
+    <ClInclude Include="Script\Effect\Effect.h" />
+    <ClInclude Include="Script\Effect\EffectManager.h" />
+    <ClInclude Include="Script\ObjectController\ActorController.h" />
+    <ClInclude Include="Script\ObjectController\ActorControllerManager.h" />
+    <ClInclude Include="Script\ObjectController\RotatingLaserController.h" />
+    <ClInclude Include="Script\ObjectController\BomberController.h" />
+    <ClInclude Include="Script\ObjectController\BomberFlyShipController.h" />
+    <ClInclude Include="Script\ObjectController\CircleFlyshipController.h" />
+    <ClInclude Include="Script\ObjectController\CollectController.h" />
+    <ClInclude Include="Script\ObjectController\DamageObjectController.h" />
+    <ClInclude Include="Script\ObjectController\TitleCarController.h" />
+    <ClInclude Include="Script\ObjectController\AddableObjectController.h" />
+    <ClInclude Include="Script\ObjectController\FlyShipController.h" />
+    <ClInclude Include="Script\ObjectController\MoveSawController.h" />
+    <ClInclude Include="Script\ObjectController\PlayerCarController.h" />
+    <ClInclude Include="Script\ObjectController\SawController.h" />
+    <ClInclude Include="Script\ObjectController\StageObjectController.h" />
+    <ClInclude Include="Script\ObjectController\UpDownFlyShipController.h" />
+    <ClInclude Include="Script\Object\Actor.h" />
+    <ClInclude Include="Script\Object\Bomber.h" />
+    <ClInclude Include="Script\Object\BomberFlyShip.h" />
+    <ClInclude Include="Script\Object\Car.h" />
+    <ClInclude Include="Script\Object\CarParamater.h" />
+    <ClInclude Include="Script\Object\CircleLaserFlyShip.h" />
+    <ClInclude Include="Script\Object\CollectItem.h" />
+    <ClInclude Include="Script\Object\DamageObject.h" />
+    <ClInclude Include="Script\Object\TitleCar.h" />
+    <ClInclude Include="Script\Object\EditObjectData.h" />
+    <ClInclude Include="Script\Object\EditorObject.h" />
+    <ClInclude Include="Script\Object\LaserFlyShip.h" />
+    <ClInclude Include="Script\Object\MoveSaw.h" />
+    <ClInclude Include="Script\Object\Object.h" />
+    <ClInclude Include="Script\Object\PlayerCar.h" />
+    <ClInclude Include="Script\Object\RotatingLaser.h" />
+    <ClInclude Include="Script\Object\Saw.h" />
+    <ClInclude Include="Script\Object\StageWall.h" />
+    <ClInclude Include="Script\Object\UpDownLaserFlyShip.h" />
+    <ClInclude Include="Script\Object\Wheels.h" />
+    <ClInclude Include="Script\Observer\CameraObserver.h" />
+    <ClInclude Include="Script\Observer\ObjectObserver.h" />
+    <ClInclude Include="Script\Observer\PlayerObserver.h" />
+    <ClInclude Include="Script\rapidjson\allocators.h" />
+    <ClInclude Include="Script\rapidjson\cursorstreamwrapper.h" />
+    <ClInclude Include="Script\rapidjson\document.h" />
+    <ClInclude Include="Script\rapidjson\encodedstream.h" />
+    <ClInclude Include="Script\rapidjson\encodings.h" />
+    <ClInclude Include="Script\rapidjson\error\en.h" />
+    <ClInclude Include="Script\rapidjson\error\error.h" />
+    <ClInclude Include="Script\rapidjson\filereadstream.h" />
+    <ClInclude Include="Script\rapidjson\filewritestream.h" />
+    <ClInclude Include="Script\rapidjson\fwd.h" />
+    <ClInclude Include="Script\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="Script\rapidjson\internal\clzll.h" />
+    <ClInclude Include="Script\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="Script\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="Script\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="Script\rapidjson\internal\itoa.h" />
+    <ClInclude Include="Script\rapidjson\internal\meta.h" />
+    <ClInclude Include="Script\rapidjson\internal\pow10.h" />
+    <ClInclude Include="Script\rapidjson\internal\regex.h" />
+    <ClInclude Include="Script\rapidjson\internal\stack.h" />
+    <ClInclude Include="Script\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="Script\rapidjson\internal\strtod.h" />
+    <ClInclude Include="Script\rapidjson\internal\swap.h" />
+    <ClInclude Include="Script\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="Script\rapidjson\memorybuffer.h" />
+    <ClInclude Include="Script\rapidjson\memorystream.h" />
+    <ClInclude Include="Script\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="Script\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="Script\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="Script\rapidjson\pointer.h" />
+    <ClInclude Include="Script\rapidjson\prettywriter.h" />
+    <ClInclude Include="Script\rapidjson\rapidjson.h" />
+    <ClInclude Include="Script\rapidjson\reader.h" />
+    <ClInclude Include="Script\rapidjson\schema.h" />
+    <ClInclude Include="Script\rapidjson\stream.h" />
+    <ClInclude Include="Script\rapidjson\stringbuffer.h" />
+    <ClInclude Include="Script\rapidjson\uri.h" />
+    <ClInclude Include="Script\rapidjson\writer.h" />
+    <ClInclude Include="Script\Scene\Editor\EditDataSaver.h" />
+    <ClInclude Include="Script\Scene\Editor\EditLog.h" />
+    <ClInclude Include="Script\Scene\Editor\EditorInput.h" />
+    <ClInclude Include="Script\Scene\Editor\EditorMenu.h" />
+    <ClInclude Include="Script\Scene\Editor\EditorScene.h" />
+    <ClInclude Include="Script\Scene\Editor\EditorManager.h" />
+    <ClInclude Include="Script\Scene\Editor\StageDataEditor.h" />
+    <ClInclude Include="Script\Scene\Editor\StageTimeLimitEditor.h" />
+    <ClInclude Include="Script\Scene\Play\CollectItemObserver.h" />
+    <ClInclude Include="Script\Scene\Play\Menu.h" />
+    <ClInclude Include="Script\Scene\Play\PlayGameProcess.h" />
+    <ClInclude Include="Script\Scene\Play\PlayScene.h" />
+    <ClInclude Include="Script\Scene\Play\PostGameEndStagingProcess.h" />
+    <ClInclude Include="Script\Scene\Play\PrePlayGameProcess.h" />
+    <ClInclude Include="Script\Scene\SceneBase.h" />
+    <ClInclude Include="Script\Scene\SceneType.h" />
+    <ClInclude Include="Script\Scene\StageDataManager.h" />
+    <ClInclude Include="Script\Scene\StageSelect.h" />
+    <ClInclude Include="Script\Scene\Title\TitleObject.h" />
+    <ClInclude Include="Script\Scene\Title\TitleRanking.h" />
+    <ClInclude Include="Script\Scene\Title\TitleScene.h" />
+    <ClInclude Include="Script\Sound\SoundListener.h" />
+    <ClInclude Include="Script\Sound\SoundPlayer.h" />
+    <ClInclude Include="Script\UI\CollectCompass.h" />
+    <ClInclude Include="Script\UI\CountDown.h" />
+    <ClInclude Include="Script\UI\EditManual.h" />
+    <ClInclude Include="Script\UI\EditorUI.h" />
+    <ClInclude Include="Script\UI\EndCountDown.h" />
+    <ClInclude Include="Script\UI\GamePlayUI.h" />
+    <ClInclude Include="Script\UI\MiniMap.h" />
+    <ClInclude Include="Script\UI\NumUI.h" />
+    <ClInclude Include="Script\UI\PlayManual.h" />
+    <ClInclude Include="Script\UI\ScoreNum.h" />
+    <ClInclude Include="Script\UI\SpaceKeyUI.h" />
+    <ClInclude Include="Script\UI\TimerUI.h" />
+    <ClInclude Include="Script\UI\UIDrawer.h" />
+    <ClInclude Include="Script\UI\UIManager.h" />
+    <ClInclude Include="Script\Utility\AssetManager.h" />
+    <ClInclude Include="Script\Utility\Clock.h" />
+    <ClInclude Include="Script\Utility\CSVFileLoader.h" />
+    <ClInclude Include="Script\Utility\FadeInFadeOut.h" />
+    <ClInclude Include="Script\Utility\JsonFileLoader.h" />
+    <ClInclude Include="Script\Utility\JsonWriter.h" />
+    <ClInclude Include="Script\Utility\StopTimer.h" />
+    <ClInclude Include="Script\Utility\ListUtility.h" />
+    <ClInclude Include="Script\Utility\OriginalMath.h" />
+    <ClInclude Include="Script\Utility\GameScreen.h" />
+    <ClInclude Include="Script\Utility\ResultScore.h" />
+    <ClInclude Include="Script\Utility\ReusableTimer.h" />
+    <ClInclude Include="Script\Utility\ScoreRecordWriter.h" />
+    <ClInclude Include="Script\Utility\ShadowMap.h" />
+    <ClInclude Include="Script\Utility\Timer.h" />
+    <ClInclude Include="Script\Utility\UserInput.h" />
+    <ClInclude Include="Script\Utility\Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ed942629-c9c9-4a15-b546-f0ea5b1ca83f}</ProjectGuid>
+    <RootNamespace>DriveAction</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>Script;Script/Scene;Script/Sound;Script/Scene/Play;Script/UI;Script/Scene/Title;Script/Observer;Script/AddActor;Script/Camera;Script/ObjectController;Script/Scene/Editor;Script/DrawModel;Script/ConflictSystem;Script/Utility;Script/Effect;Script/Object;Script/rapidjson;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>Script;Script/Scene;Script/Sound;Script/Scene/Play;Script/UI;Script/Scene/Title;Script/Observer;Script/AddActor;Script/Camera;Script/ObjectController;Script/Scene/Editor;Script/DrawModel;Script/ConflictSystem;Script/Utility;Script/Effect;Script/Object;Script/rapidjson;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>Script;Script/Scene;Script/Sound;Script/Scene/Play;Script/UI;Script/Scene/Title;Script/Observer;Script/AddActor;Script/Camera;Script/ObjectController;Script/Scene/Editor;Script/DrawModel;Script/ConflictSystem;Script/Utility;Script/Effect;Script/Object;Script/rapidjson;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>Script;Script/Scene;Script/Sound;Script/Scene/Play;Script/UI;Script/Scene/Title;Script/Observer;Script/AddActor;Script/Camera;Script/ObjectController;Script/Scene/Editor;Script/DrawModel;Script/ConflictSystem;Script/Utility;Script/Effect;Script/Object;Script/rapidjson;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DxLib_h</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <CallingConvention>Cdecl</CallingConvention>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>DxLib_h</AdditionalLibraryDirectories>
+      <AdditionalDependencies>onecore.lib;onecoreuap.lib;user32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\8bith\OneDrive\デスクトップ\DxLib_h</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CallingConvention>Cdecl</CallingConvention>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\8bith\OneDrive\デスクトップ\DxLib_h</AdditionalLibraryDirectories>
+      <AdditionalDependencies>onecore.lib;onecoreuap.lib;user32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>DxLib_h</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CallingConvention>Cdecl</CallingConvention>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>DxLib_h</AdditionalLibraryDirectories>
+      <AdditionalDependencies>onecore.lib;onecoreuap.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\8bith\OneDrive\デスクトップ\DxLib_h</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CallingConvention>Cdecl</CallingConvention>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\8bith\OneDrive\デスクトップ\DxLib_h</AdditionalLibraryDirectories>
+      <AdditionalDependencies>onecore.lib;onecoreuap.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\StyleCop.MSBuild.6.2.0\build\StyleCop.MSBuild.targets" Condition="Exists('packages\StyleCop.MSBuild.6.2.0\build\StyleCop.MSBuild.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>このプロジェクトは、このコンピューター上にない NuGet パッケージを参照しています。それらのパッケージをダウンロードするには、[NuGet パッケージの復元] を使用します。詳細については、http://go.microsoft.com/fwlink/?LinkID=322105 を参照してください。見つからないファイルは {0} です。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\StyleCop.MSBuild.6.2.0\build\StyleCop.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\StyleCop.MSBuild.6.2.0\build\StyleCop.MSBuild.targets'))" />
+  </Target>
+</Project>

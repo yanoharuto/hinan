@@ -1,0 +1,8 @@
+{
+  "assetPass": "data/model/Stage/wall.mv1",
+  "modelSize": 1,
+  "firstPosY": 0,
+  "collRadius": 0,
+  "bouncePower": 0.2,
+  "addDataPass": ""
+}

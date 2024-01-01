@@ -1,0 +1,7 @@
+{
+  "assetPass": [
+    { "item": "data/Json/Camera/FirstCamera.json" },
+    { "item": "data/Json/Camera/GameCameraInitData.json" },
+    { "item": "data/Json/Camera/EditCameraInitData.json" }
+  ]
+}

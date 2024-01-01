@@ -1,0 +1,16 @@
+{
+  "assetPass": [
+    { "item": "data/Json/ObjectData/iceBrades.json" },
+    { "item": "data/Json/ObjectData/moveSaw.json" },
+    { "item": "data/Json/ObjectData/saw.json" },
+    { "item": "data/Json/ObjectData/BomberShip/bomberShip.json" },
+    { "item": "data/Json/ObjectData/bomb/bomb.json" },
+    { "item": "data/Json/ObjectData/upDownLaserShip.json" },
+    { "item": "data/Json/ObjectData/circleLaserShip.json" },
+    { "item": "data/Json/ObjectData/bigRadiusLaser.json" },
+    { "item": "data/Json/ObjectData/coin.json" },
+    { "item": "data/Json/ObjectData/floor.json" },
+    { "item": "data/Json/ObjectData/skyDome.json" },
+    { "item": "data/Json/ObjectData/wall.json" }
+  ]
+}

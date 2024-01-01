@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "effectPass",
+    "effectSize"
+  ],
+  "properties": {
+    "effectPass": {
+      "type": "string",
+      "default": "",
+      "title": "The effectPass Schema",
+      "examples": [
+        "data/effect/conflict.efkefc"
+      ]
+    },
+    "effectSize": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The effectSize Schema",
+      "examples": [
+        10.0
+      ]
+    }
+  },
+  "examples": [
+    {
+      "effectPass": "data/effect/conflict.efkefc",
+      "effectSize": 10.0
+    }
+  ]
+}

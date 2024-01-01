@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "arrangeData"
+  ],
+  "properties": {
+    "arrangeData": {
+      "type": "array",
+      "default": [],
+      "title": "The arrangeData Schema",
+      "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": [
+          "objNum",
+          "collectNum",
+          "x",
+          "z",
+          "dirX",
+          "dirZ"
+        ],
+        "properties": {
+          "objNum": {
+            "type": "integer",
+            "default": 0.0,
+            "title": "The objNum Schema",
+            "examples": [
+              32.0
+            ]
+          },
+          "collectNum": {
+            "type": "integer",
+            "default": 0.0,
+            "title": "The collectNum Schema",
+            "examples": [
+              0.0
+            ]
+          },
+          "x": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The x Schema",
+            "examples": [
+              1878.33544921875
+            ]
+          },
+          "z": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The z Schema",
+            "examples": [
+              610.308837890625
+            ]
+          },
+          "dirX": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The dirX Schema",
+            "examples": [
+              1.0
+            ]
+          },
+          "dirZ": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The dirZ Schema",
+            "examples": [
+              0.0
+            ]
+          }
+        },
+        "examples": [
+          {
+            "objNum": 32.0,
+            "collectNum": 0.0,
+            "x": 1878.33544921875,
+            "z": 610.308837890625,
+            "dirX": 1.0,
+            "dirZ": 0.0
+          }
+        ]
+      },
+      "examples": [
+        [
+          {
+            "objNum": 32.0,
+            "collectNum": 0.0,
+            "x": 1878.33544921875,
+            "z": 610.308837890625,
+            "dirX": 1.0,
+            "dirZ": 0.0
+          }
+        ]
+      ]
+    }
+  },
+  "examples": [
+    {
+      "arrangeData": [
+        {
+          "objNum": 32.0,
+          "collectNum": 0.0,
+          "x": 1878.33544921875,
+          "z": 610.308837890625,
+          "dirX": 1.0,
+          "dirZ": 0.0
+        }
+      ]
+    }
+  ]
+}

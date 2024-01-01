@@ -1,0 +1,14 @@
+data/csv/Sound/bomberShipFlight.csv
+data/csv/Sound/playerFlight.csv
+data/csv/Sound/playerDamage.csv
+data/csv/Sound/coinGet.csv
+data/csv/Sound/countDown.csv
+data/csv/Sound/playBGM.csv
+data/csv/Sound/clap.csv
+data/csv/Sound/fanfare.csv
+data/csv/Sound/titleBGM.csv
+data/csv/Sound/scoreStartSE.csv
+data/csv/Sound/scoreEndSE.csv
+data/csv/Sound/sceneNextSE.csv
+data/csv/Sound/gameEndFanfare.csv
+data/csv/Sound/playerCharge.csv

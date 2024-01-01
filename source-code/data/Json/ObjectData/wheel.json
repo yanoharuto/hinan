@@ -1,0 +1,8 @@
+{
+  "assetPass": "data/model/Player/IceBlades.mv1",
+  "modelSize": 0.13,
+  "firstPosY": 2,
+  "collRadius": 5,
+  "bouncePower": 1,
+  "addDataPass": "data/model/Player/playerSpeed.csv"
+}

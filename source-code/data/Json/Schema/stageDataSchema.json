@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "width",
+    "length",
+    "editFilePath",
+    "gameTime",
+    "stageScoreFilePath"
+  ],
+  "properties": {
+    "width": {
+      "type": "integer",
+      "default": 0,
+      "title": "The width Schema",
+      "examples": [
+        6000
+      ]
+    },
+    "length": {
+      "type": "integer",
+      "default": 0,
+      "title": "The length Schema",
+      "examples": [
+        6000
+      ]
+    },
+    "editFilePath": {
+      "type": "string",
+      "default": "",
+      "title": "The editFilePath Schema",
+      "examples": [
+        "data/Json/StageData/Stage4/editData.json"
+      ]
+    },
+    "gameTime": {
+      "type": "integer",
+      "default": 0,
+      "title": "The gameTime Schema",
+      "examples": [
+        75
+      ]
+    },
+    "stageScoreFilePath": {
+      "type": "string",
+      "default": "",
+      "title": "The stageScoreFilePath Schema",
+      "examples": [
+        "data/Json/StageData/Stage4/scoreData.json"
+      ]
+    }
+  },
+  "examples": [
+    {
+      "width": 6000,
+      "length": 6000,
+      "editFilePath": "data/Json/StageData/Stage4/editData.json",
+      "gameTime": 75,
+      "stageScoreFilePath": "data/Json/StageData/Stage4/scoreData.json"
+    }
+  ]
+}

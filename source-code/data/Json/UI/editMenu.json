@@ -1,0 +1,11 @@
+{
+  "x": 400,
+  "y": 200,
+  "width": 600,
+  "height": 480,
+  "xNum": 1,
+  "yNum": 4,
+  "graphPass": "data/UI/image/EditMenu.png",
+  "size": 1.0,
+  "frameSpeed": 0.0
+}

@@ -1,0 +1,8 @@
+{
+  "assetPass": "data/model/BomberShip/PrototypeZero.mv1",
+  "modelSize": 0.7,
+  "firstPosY": 700,
+  "collRadius": 0,
+  "bouncePower": 0,
+  "addDataPass": "data/model/BomberShip/InitBomberShip.csv"
+}
